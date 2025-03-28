@@ -1,0 +1,43 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1050" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="fStgRu6cMe50mn9gYJw4-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fStgRu6cMe50mn9gYJw4-0" target="fStgRu6cMe50mn9gYJw4-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fStgRu6cMe50mn9gYJw4-0" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="310" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fStgRu6cMe50mn9gYJw4-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fStgRu6cMe50mn9gYJw4-1" target="fStgRu6cMe50mn9gYJw4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fStgRu6cMe50mn9gYJw4-1" value="输入用户名" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="310" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fStgRu6cMe50mn9gYJw4-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fStgRu6cMe50mn9gYJw4-2" target="fStgRu6cMe50mn9gYJw4-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fStgRu6cMe50mn9gYJw4-2" value="生成随机卡号" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="310" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fStgRu6cMe50mn9gYJw4-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#457B9D;fontColor=default;fillColor=#A8DADC;labelBackgroundColor=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fStgRu6cMe50mn9gYJw4-4" target="fStgRu6cMe50mn9gYJw4-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fStgRu6cMe50mn9gYJw4-4" value="保存卡号到数据库" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="310" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fStgRu6cMe50mn9gYJw4-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fStgRu6cMe50mn9gYJw4-5" target="fStgRu6cMe50mn9gYJw4-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fStgRu6cMe50mn9gYJw4-5" value="开户成功" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="310" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fStgRu6cMe50mn9gYJw4-6" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="310" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

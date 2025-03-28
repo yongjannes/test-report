@@ -1,0 +1,33 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1050" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="wsdjY2O2JSvEGGb2N3pA-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wsdjY2O2JSvEGGb2N3pA-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wsdjY2O2JSvEGGb2N3pA-2" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px; font-size: 17px;&quot;&gt;Users&lt;/div&gt;&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;2&quot; style=&quot;width: 100%; font-size: 17px;&quot;&gt;&lt;tbody style=&quot;font-size: 17px;&quot;&gt;&lt;tr style=&quot;font-size: 17px;&quot;&gt;&lt;td style=&quot;font-size: 17px;&quot;&gt;PK&lt;/td&gt;&lt;td style=&quot;font-size: 17px;&quot;&gt;user_id INTTEGER AUTOINCREMENT&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;font-size: 17px;&quot;&gt;&lt;td style=&quot;font-size: 17px;&quot;&gt;&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;/td&gt;&lt;td style=&quot;font-size: 17px;&quot;&gt;username TEXT NOT NULL&lt;br style=&quot;font-size: 17px;&quot;&gt;card_number TEXT NOT NULL&lt;br style=&quot;font-size: 17px;&quot;&gt;balance REAL NOT NULL&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;font-size: 17px;&quot;&gt;&lt;td style=&quot;font-size: 17px;&quot;&gt;&lt;/td&gt;&lt;td style=&quot;font-size: 17px;&quot;&gt;UNIQUE(card_number ASC)&lt;br style=&quot;font-size: 17px;&quot;&gt;(BALANCE&amp;gt;=0)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=17;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="46" y="140" width="334" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="wsdjY2O2JSvEGGb2N3pA-3" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px; font-size: 17px;&quot;&gt;Transactions&lt;/div&gt;&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;2&quot; style=&quot;width: 100%; font-size: 17px;&quot;&gt;&lt;tbody style=&quot;font-size: 17px;&quot;&gt;&lt;tr style=&quot;font-size: 17px;&quot;&gt;&lt;td style=&quot;font-size: 17px;&quot;&gt;PK&lt;/td&gt;&lt;td style=&quot;font-size: 17px;&quot;&gt;transaction_id INTEGER AUTOINCREMENT&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;font-size: 17px;&quot;&gt;&lt;td style=&quot;font-size: 17px;&quot;&gt;FK1&lt;/td&gt;&lt;td style=&quot;font-size: 17px;&quot;&gt;card_number TEXT&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;font-size: 17px;&quot;&gt;&lt;td style=&quot;font-size: 17px;&quot;&gt;&lt;/td&gt;&lt;td style=&quot;font-size: 17px;&quot;&gt;transaction_type&amp;nbsp; TEXT&lt;br style=&quot;font-size: 17px;&quot;&gt;amount&amp;nbsp; REAL&lt;br style=&quot;font-size: 17px;&quot;&gt;transaction_time TEXT&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;fontSize=17;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="535" y="140" width="380" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="wsdjY2O2JSvEGGb2N3pA-8" value="用户信息表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#46495D;fontSize=17;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="31" y="100" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wsdjY2O2JSvEGGb2N3pA-9" value="交易记录表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#46495D;fontSize=17;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="520" y="100" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wsdjY2O2JSvEGGb2N3pA-11" value="*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#46495D;fontSize=24;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="375" y="203" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wsdjY2O2JSvEGGb2N3pA-12" value="*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#46495D;fontSize=24;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="203" width="30" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

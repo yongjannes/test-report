@@ -1,0 +1,59 @@
+# depslib dependency file v1.0
+1703409961 source:c:\users\jy\desktop\drill\面向对象程序设计\期末大作业\book\main.cpp
+	<iostream>
+	"Member.h"
+	"ContactBook.h"
+	"Menu.h"
+	"Login.h"
+	<User.h>
+	<vector>
+	<string>
+
+1702213463 source:c:\users\jy\desktop\drill\面向对象程序设计\期末大作业\book\src\member.cpp
+	"Member.h"
+	<iostream>
+
+1702212456 c:\users\jy\desktop\drill\面向对象程序设计\期末大作业\book\include\member.h
+	<string>
+
+1703412247 source:c:\users\jy\desktop\drill\面向对象程序设计\期末大作业\book\src\contactbook.cpp
+	"ContactBook.h"
+	<iostream>
+	<regex>
+
+1703413049 c:\users\jy\desktop\drill\面向对象程序设计\期末大作业\book\include\contactbook.h
+	<vector>
+	"Member.h"
+
+1703412247 source:c:\users\jy\desktop\drill\面向对象程序设计\期末大作业\book\src\menu.cpp
+	"Menu.h"
+	<iostream>
+	"Member.h"
+	"ContactBook.h"
+
+1703251629 c:\users\jy\desktop\drill\面向对象程序设计\期末大作业\book\include\menu.h
+	<vector>
+	"Member.h"
+
+1702213456 source:c:\users\jy\desktop\drill\面向对象程序设计\期末大作业\book\src\login.cpp
+	"Login.h"
+	"User.h"
+	"Menu.h"
+	<iostream>
+	<limits>
+
+1702213045 c:\users\jy\desktop\drill\面向对象程序设计\期末大作业\book\include\login.h
+	"User.h"
+
+1702190154 source:c:\users\jy\desktop\drill\面向对象程序设计\期末大作业\book\src\user .cpp
+	"User .h"
+
+1702190154 c:\users\jy\desktop\drill\面向对象程序设计\期末大作业\book\include\user .h
+	<string>
+
+1703409939 c:\users\jy\desktop\drill\面向对象程序设计\期末大作业\book\include\user.h
+	<string>
+
+1702206888 source:c:\users\jy\desktop\drill\面向对象程序设计\期末大作业\book\src\user.cpp
+	"User .h"
+

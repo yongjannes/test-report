@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/Close.ico</file>
+        <file>img/ico.ico</file>
+        <file>img/ico.jpg</file>
+        <file>img/rjsm.jpg</file>
+        <file>img/save.png</file>
+    </qresource>
+</RCC>
